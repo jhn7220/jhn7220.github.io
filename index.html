@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Justin's Website</title>
+        <style>
+            body {
+                background: rgb(70, 198, 125);
+                color: rgb( 45, 45, 45);
+                padding: 10px;
+                font-family: arial;
+            }
+            header {
+                font-size: 1.5em;
+                font-weight: bold;
+            }
+            #all-contents {
+                max-width: 800px;
+                margin: auto;
+            }
+            
+            /* navigation menu */
+            nav {
+                background: rgb(70, 125, 198);
+                margin: 0 auto;
+                margin-bottom: 20px;
+                display: flex;
+                padding: 10px;
+                border: 30px;
+                border-radius: 30px;
+            }
+            nav header {
+                display: flex;
+                align-items: center;
+                color: rgb(255, 255, 255);
+                flex: 1;
+            }
+            nav ul {
+                list-style-image: none;
+            }
+            nav li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            nav a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            /* main container area beneath menu */
+            main {
+                background: rgb(245, 238, 219);
+                display: flex;
+            }
+            .sidebar {
+                margin-right: 25px;
+                padding: 10px;
+            }
+            .sidebar img {
+                width: 200px;
+                border: 30px;
+                border-radius: 30px;
+            }
+            .content {
+                flex: 1;
+                padding: 15px;
+            }
+            .interests header {
+                font-size: 1.25em;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id="all-contents">
+            <nav>
+                <header>Justin's Website of Awesomeness</header>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                </ul>
+            </nav>
+            
+            <main>
+                <div class="sidebar">
+                    <img src="https://mail.google.com/mail/u/0?ui=2&ik=d03e3865b7&attid=0.1&permmsgid=msg-f:1635370841486513647&th=16b2011da2d5d5ef&view=att&disp=safe&realattid=16b2011640941cd62c51">
+                </div>
+                
+                <div class="content">
+                    <header>Justin Nguyen</header>
+                    <p>"Student at South Plaquemines High."</p>
+                    <section class="interests">
+                        <header>Interests</header>
+                        <ul>
+                            <li>Video Games</li>
+                            <li>Playing the Piano</li>
+                            <li>Watching Youtube Videos</li>
+                        </ul>
+                    </section>
+                </div>
+            </main>
+        </div>
+    </body>
+</html>
