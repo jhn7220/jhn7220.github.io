@@ -35,6 +35,6 @@
             game.physics.startSystem(Phaser.Physics.ARCADE);
             game.physics.arcade.TILE_BIAS = 2;
         };
-        return game;
+        return game; 
     };
 })(window);
